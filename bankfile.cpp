@@ -1,7 +1,10 @@
 #include <iostream>
+
 using namespace std;
-int main ()
+
+int main()
 {
+    
     int options;
     while (true)
     {
@@ -13,11 +16,12 @@ int main ()
         switch (options)
         {
         case 1:
-            "option 1 clicked";
+            "options 1 clicked";
             break;
+        
         default:
             break;
-            
+
         }
     }
 }
